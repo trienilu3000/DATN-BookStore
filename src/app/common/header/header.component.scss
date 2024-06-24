@@ -1,0 +1,110 @@
+.navbar_header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f8f7f7;
+  width: 100%;
+  height: 35px;
+  top: 0;
+  .navbar_list {
+    .navbar_list-item {
+      display: inline-block;
+
+      list-style: none;
+    }
+  }
+  a {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px;
+  }
+}
+.navbar_header-bottom {
+  display: flex;
+  line-height: 60px;
+  box-shadow: 0 2px 8px #f0f1f2;
+  .logo-row {
+    display: block;
+    flex: 0 0 20.83333333%;
+
+    #logo {
+      padding-left: 40px;
+      strong {
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
+  }
+  .menu-row {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    #search-box {
+      display: flex;
+      flex: 5;
+      align-items: center;
+      height: 22px;
+      padding-left: 16px;
+      border-left: 1px solid rgba(0, 0, 0, 0.06);
+      .search-box-input {
+        margin: 0;
+        width: 100%;
+        padding: 4px 11px;
+        color: #000000d9;
+        font-size: 14px;
+        border: none;
+      }
+      .search-box-input:focus {
+        outline: none;
+      }
+    }
+    #nav {
+      flex: 3;
+      text-align: center;
+      .menu-item {
+        display: inline-block;
+        padding: 0 7px;
+        font-size: 14px;
+      }
+    }
+    .cart {
+      flex: 1;
+      .cart-btn-count {
+        background-color: #fff;
+        margin-left: 6px;
+        padding: 0px 15px;
+        border: 1px solid #d4d4d4;
+        border-radius: 3px;
+
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+    .theme-switch {
+      flex: 0.6;
+
+      .theme-switch-btn {
+        background-color: #fff;
+        padding: 2px 10px;
+        border: 1px solid #d4d4d4;
+        border-radius: 3px;
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+    .lang-switch {
+      flex: 1;
+      .lang-switch-btn {
+        background-color: #fff;
+        padding: 2px 7px;
+        border: 1px solid #d4d4d4;
+        border-radius: 3px;
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
