@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 Open Terminal -> run `cd backend` -> `mvn spring-boot:run` for run backend . Navigate to `http://localhost:8080/`. The application will automatically reload if you change any of the source files.
 Open Terminal -> run `npm run start` or `ng serve` for run frontend . Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
+## Run mock data
+Open Terminal -> run `npm run mock.start.win` for run mock data . Navigate to `http://localhost:3000/"param"`. The application will automatically reload if you change any of the source files.
 ## Code scaffolding
 
 Run `ng g c folder/component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
