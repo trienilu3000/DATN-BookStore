@@ -1,0 +1,61 @@
+@import "../../styles/themes";
+.home-page {
+  background-color: #fbfafa;
+
+  .background-menu-homepage {
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    .left-banner {
+      .banner-container {
+        padding: 0;
+        .left-banner-img {
+          border: var(--border-theme);
+          max-width: 768px;
+          border-radius: 15px;
+        }
+      }
+    }
+
+    .right-banner {
+      margin-left: 15px;
+      padding: 0;
+      img {
+        border: var(--border-theme);
+        max-width: 422px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .flashsale {
+    background-color: var(--background-color-theme);
+    padding: 35px;
+    .flashsale-header {
+      display: flex;
+      align-items: center;
+      .flashsale-header-title {
+        color: var(--color-theme);
+        font-size: 23px;
+        font-weight: 700;
+      }
+      .flashsale-header-img {
+        width: 50px;
+      }
+    }
+
+    .flashsale-slider {
+      .flashsale-list-item {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .flashsale-item {
+          margin-right: 15px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

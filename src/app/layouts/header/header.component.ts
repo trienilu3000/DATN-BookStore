@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  onModeChange (mode:string){
+    document.body.setAttribute('data-theme',mode);
+  }
 }

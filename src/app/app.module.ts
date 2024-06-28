@@ -7,7 +7,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { LoginComponent } from './pages/login/login.component';
-import { ProductDetailComponent } from './pages/home/product-detail/product-detail.component';
+import { DarkmodeComponent } from './layouts/header/darkmode/darkmode.component';
+import { ProductCardComponent } from './layouts/product-card/product-card.component';
+
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,8 @@ import { ProductDetailComponent } from './pages/home/product-detail/product-deta
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    ProductDetailComponent
+    DarkmodeComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

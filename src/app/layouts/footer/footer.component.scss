@@ -1,9 +1,10 @@
+@import "../../styles/themes";
 .footer-section {
-  position: absolute;
   bottom: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: var(--border-theme);
   width: 100%;
   padding-top: 15px;
+  background-color: var(--background-color-theme);
   .footer-top {
     display: flex;
 
@@ -12,16 +13,20 @@
       h2 {
         font-weight: 400;
         font-size: 17px;
+        color: var(--color-theme);
       }
       .footer-item {
         font-weight: 300;
         margin: 10px 0;
+        a {
+          color: var(--color-theme);
+        }
       }
     }
   }
   .footer-bottom {
     display: flex;
-    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: var(--border-theme);
     padding: 15px 0px;
     .footer-bottom-left {
       flex: 1;
@@ -31,6 +36,7 @@
         list-style: none;
         li {
           margin-right: 10px;
+          color: var(--color-theme);
         }
       }
     }
@@ -41,6 +47,15 @@
         margin-right: 20px;
         .footer-social-item {
           margin-right: 15px;
+          color: var(--color-theme);
+        }
+      }
+      #footer-theme {
+        color: var(--color-theme);
+        .footer-theme-item {
+          span {
+            color: var(--color-theme);
+          }
         }
       }
     }

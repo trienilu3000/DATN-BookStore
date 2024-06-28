@@ -42,9 +42,7 @@
       <a class="cart-btn-count"><span>1</span></a>
     </span>
     <div class="theme-switch">
-      <a class="theme-switch-btn">
-        <span>Dark</span>
-      </a>
+      <app-darkmode (modeChange)="onModeChange($event)"></app-darkmode>
     </div>
     <div class="lang-switch">
       <a class="lang-switch-btn">
