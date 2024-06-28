@@ -1,0 +1,41 @@
+@import "../../styles/themes";
+
+.product-card {
+  border-radius: 8px;
+  padding: 10px 18px;
+  background-color: #ffffff;
+  .product-card-thumbnail {
+    .product-card-thumbnail_img {
+      max-width: 158px;
+      object-fit: contain;
+    }
+  }
+
+  .product-card-title {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .product-card-price {
+    .special-price {
+      .price {
+        font-weight: 700;
+        margin-right: 5px;
+      }
+      .discount-percent {
+        background-color: #c92127;
+        border-radius: 7px;
+        width: 20px !important;
+        padding: 5px;
+        color: white;
+        font-weight: 700;
+        font-size: 10px;
+      }
+    }
+
+    .old-price {
+      text-decoration-line: line-through;
+      font-weight: 300;
+      font-size: 13px;
+    }
+  }
+}

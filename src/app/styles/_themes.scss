@@ -1,0 +1,13 @@
+@import "variables.scss";
+[data-theme="Light"] {
+  --background-color-theme: #ffffff;
+  --color-theme: #121212;
+  --box-shadow-theme: 0 2px 8px #f0f1f2;
+  --border-theme: 1px solid rgba(0, 0, 0, 0.06);
+}
+[data-theme="Dark"] {
+  --background-color-theme: #121212;
+  --color-theme: #ffffff;
+  --box-shadow-theme: none;
+  --border-theme: 1px solid #ffffff;
+}

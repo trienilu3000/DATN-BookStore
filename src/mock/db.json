@@ -1,0 +1,268 @@
+{
+  "books": [
+      {
+          "BookID": 1,
+          "Title": "The Great Gatsby",
+          "Author": "F. Scott Fitzgerald",
+          "Genre": "Fiction",
+          "Price": 10.99,
+          "PublishedDate": "1925-04-10",
+          "ISBN": "9780743273565",
+          "PageCount": 180,
+          "Language": "English",
+          "Publisher": "Charles Scribner's Sons",
+          "Discount": 1.1
+      },
+      {
+          "BookID": 2,
+          "Title": "To Kill a Mockingbird",
+          "Author": "Harper Lee",
+          "Genre": "Fiction",
+          "Price": 7.99,
+          "PublishedDate": "1960-07-11",
+          "ISBN": "9780061120084",
+          "PageCount": 281,
+          "Language": "English",
+          "Publisher": "J.B. Lippincott & Co.",
+          "Discount": 0.8
+      },
+      {
+          "BookID": 3,
+          "Title": "1984",
+          "Author": "George Orwell",
+          "Genre": "Dystopian",
+          "Price": 8.99,
+          "PublishedDate": "1949-06-08",
+          "ISBN": "9780451524935",
+          "PageCount": 328,
+          "Language": "English",
+          "Publisher": "Secker & Warburg",
+          "Discount": 0.9
+      },
+      {
+          "BookID": 4,
+          "Title": "The Catcher in the Rye",
+          "Author": "J.D. Salinger",
+          "Genre": "Fiction",
+          "Price": 6.99,
+          "PublishedDate": "1951-07-16",
+          "ISBN": "9780316769488",
+          "PageCount": 214,
+          "Language": "English",
+          "Publisher": "Little, Brown and Company",
+          "Discount": 0.7
+      },
+      {
+          "BookID": 5,
+          "Title": "Pride and Prejudice",
+          "Author": "Jane Austen",
+          "Genre": "Romance",
+          "Price": 9.99,
+          "PublishedDate": "1813-01-28",
+          "ISBN": "9781503290563",
+          "PageCount": 279,
+          "Language": "English",
+          "Publisher": "T. Egerton",
+          "Discount": 1.0
+      },
+      {
+          "BookID": 6,
+          "Title": "The Hobbit",
+          "Author": "J.R.R. Tolkien",
+          "Genre": "Fantasy",
+          "Price": 8.49,
+          "PublishedDate": "1937-09-21",
+          "ISBN": "9780547928227",
+          "PageCount": 310,
+          "Language": "English",
+          "Publisher": "George Allen & Unwin",
+          "Discount": 0.85
+      },
+      {
+          "BookID": 7,
+          "Title": "Harry Potter and the Sorcerer's Stone",
+          "Author": "J.K. Rowling",
+          "Genre": "Fantasy",
+          "Price": 10.99,
+          "PublishedDate": "1997-06-26",
+          "ISBN": "9780590353427",
+          "PageCount": 309,
+          "Language": "English",
+          "Publisher": "Bloomsbury",
+          "Discount": 1.1
+      },
+      {
+          "BookID": 8,
+          "Title": "The Alchemist",
+          "Author": "Paulo Coelho",
+          "Genre": "Adventure",
+          "Price": 11.99,
+          "PublishedDate": "1988-04-15",
+          "ISBN": "9780061122415",
+          "PageCount": 208,
+          "Language": "English",
+          "Publisher": "HarperTorch",
+          "Discount": 1.2
+      },
+      {
+          "BookID": 9,
+          "Title": "The Da Vinci Code",
+          "Author": "Dan Brown",
+          "Genre": "Thriller",
+          "Price": 9.99,
+          "PublishedDate": "2003-03-18",
+          "ISBN": "9780385504201",
+          "PageCount": 454,
+          "Language": "English",
+          "Publisher": "Doubleday",
+          "Discount": 1.0
+      },
+      {
+          "BookID": 10,
+          "Title": "The Road",
+          "Author": "Cormac McCarthy",
+          "Genre": "Post-apocalyptic",
+          "Price": 7.99,
+          "PublishedDate": "2006-09-26",
+          "ISBN": "9780307387899",
+          "PageCount": 287,
+          "Language": "English",
+          "Publisher": "Alfred A. Knopf",
+          "Discount": 0.8
+      }
+  ],
+  "authors": [
+      {
+          "AuthorID": 1,
+          "Name": "F. Scott Fitzgerald",
+          "Nationality": "American",
+          "Born": "1896-09-24",
+          "Died": "1940-12-21"
+      },
+      {
+          "AuthorID": 2,
+          "Name": "Harper Lee",
+          "Nationality": "American",
+          "Born": "1926-04-28",
+          "Died": "2016-02-19"
+      },
+      {
+          "AuthorID": 3,
+          "Name": "George Orwell",
+          "Nationality": "British",
+          "Born": "1903-06-25",
+          "Died": "1950-01-21"
+      },
+      {
+          "AuthorID": 4,
+          "Name": "J.D. Salinger",
+          "Nationality": "American",
+          "Born": "1919-01-01",
+          "Died": "2010-01-27"
+      },
+      {
+          "AuthorID": 5,
+          "Name": "Jane Austen",
+          "Nationality": "British",
+          "Born": "1775-12-16",
+          "Died": "1817-07-18"
+      },
+      {
+          "AuthorID": 6,
+          "Name": "J.R.R. Tolkien",
+          "Nationality": "British",
+          "Born": "1892-01-03",
+          "Died": "1973-09-02"
+      },
+      {
+          "AuthorID": 7,
+          "Name": "J.K. Rowling",
+          "Nationality": "British",
+          "Born": "1965-07-31",
+          "Died": null
+      },
+      {
+          "AuthorID": 8,
+          "Name": "Paulo Coelho",
+          "Nationality": "Brazilian",
+          "Born": "1947-08-24",
+          "Died": null
+      },
+      {
+          "AuthorID": 9,
+          "Name": "Dan Brown",
+          "Nationality": "American",
+          "Born": "1964-06-22",
+          "Died": null
+      },
+      {
+          "AuthorID": 10,
+          "Name": "Cormac McCarthy",
+          "Nationality": "American",
+          "Born": "1933-07-20",
+          "Died": "2023-06-13"
+      }
+  ],
+  "publishers": [
+      {
+          "PublisherID": 1,
+          "Name": "Charles Scribner's Sons",
+          "Country": "United States",
+          "Founded": "1846"
+      },
+      {
+          "PublisherID": 2,
+          "Name": "J.B. Lippincott & Co.",
+          "Country": "United States",
+          "Founded": "1836"
+      },
+      {
+          "PublisherID": 3,
+          "Name": "Secker & Warburg",
+          "Country": "United Kingdom",
+          "Founded": "1935"
+      },
+      {
+          "PublisherID": 4,
+          "Name": "Little, Brown and Company",
+          "Country": "United States",
+          "Founded": "1837"
+      },
+      {
+          "PublisherID": 5,
+          "Name": "T. Egerton",
+          "Country": "United Kingdom",
+          "Founded": "1780"
+      },
+      {
+          "PublisherID": 6,
+          "Name": "George Allen & Unwin",
+          "Country": "United Kingdom",
+          "Founded": "1914"
+      },
+      {
+          "PublisherID": 7,
+          "Name": "Bloomsbury",
+          "Country": "United Kingdom",
+          "Founded": "1986"
+      },
+      {
+          "PublisherID": 8,
+          "Name": "HarperTorch",
+          "Country": "United States",
+          "Founded": "1998"
+      },
+      {
+          "PublisherID": 9,
+          "Name": "Doubleday",
+          "Country": "United States",
+          "Founded": "1897"
+      },
+      {
+          "PublisherID": 10,
+          "Name": "Alfred A. Knopf",
+          "Country": "United States",
+          "Founded": "1915"
+      }
+  ]
+}
